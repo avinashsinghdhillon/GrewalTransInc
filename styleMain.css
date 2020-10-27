@@ -75,7 +75,7 @@ nav a {
 #introText p {
     font-size: .9em;
     text-indent: 50px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .inlineLinks {
@@ -89,13 +89,15 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 25px 0;
 }
 
 .card {
     max-width: fit-content;
     border: solid 3px var(--secondary);
-    box-shadow: 0 10px 10px -6px black;
+    box-shadow: 0 5px 10px 5px black;
     text-align: center;
+    opacity: 1;
 }
 .cardImg {
     max-width: 125px;
@@ -110,10 +112,12 @@ nav a {
 
 .rotateRight {
     transform: rotate(15deg);
+    margin-right: 10px;
 }
 
 .rotateLeft {
     transform: rotate(-15deg);
+    margin-left: 10px;
 }
 
 /* Footer style */

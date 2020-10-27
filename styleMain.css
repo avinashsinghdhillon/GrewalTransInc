@@ -51,7 +51,7 @@ nav a {
 
 #navLogo {
     width: 6em;
-    padding: 5px;
+    margin: 5px;
 }
 
 #navLinks {
@@ -117,7 +117,7 @@ footer a {
     margin: 0 10px;
 }
 
-#carbLogo, #smartwayLogo, #fmcsaLogo {
+#fmcsaLogo, #carbLogo, #smartwayLogo {
     max-height: 25px;
     margin: 0 10px;
 }

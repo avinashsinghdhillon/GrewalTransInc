@@ -31,17 +31,17 @@ body {
     justify-content: space-between;
 }
 
-li {
-    list-style-type: none;
-    font-size: 1em;
-    font-weight: 600;
-    margin: 0 5px;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     background-color: #fffffe;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0 5px;
 }
 
 nav a {
@@ -71,17 +71,24 @@ nav a {
 }
 
 #introText p {
-    font-size: 1em;
+    font-size: .9em;
     text-indent: 50px;
     margin: 20px;
 }
 
+.inlineLinks {
+    color: var(--secondary);
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
 footer {
     width: 100%;
-    height: 3em;
+    height: 4em;
     background-color: var(--secondary);
     color: var(--primary);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -94,6 +101,8 @@ footer ul {
 
 footer li {
     font-size: .8em;
+    list-style-type: none;
+    margin: 0 3px;
 }
 
 footer a {
@@ -102,4 +111,10 @@ footer a {
 
 .copyright {
     font-size: .7em;
+    font-weight: normal;
+    margin: 0 10px;
+}
+
+#carbLogo, #smartwayLogo {
+    max-height: 25px;
 }

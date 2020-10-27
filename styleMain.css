@@ -59,11 +59,11 @@ nav a {
 }
 
 #banner {
-    height: 11em;
+    height: fit-content;
 }
+
 #banner img {
     max-width: 100%;
-
 }
 
 #introText {

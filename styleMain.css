@@ -62,10 +62,40 @@ nav a {
 
 #banner {
     height: fit-content;
+    position: relative;
 }
 
 #banner img {
+    min-width: 100%;
     max-width: 100%;
+}
+
+.slide {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
 }
 
 #introText {
@@ -89,15 +119,15 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 0;
+    margin: 50px 0;
 }
 
 .card {
     max-width: fit-content;
-    border: solid 3px var(--secondary);
     box-shadow: 0 5px 10px 5px black;
     text-align: center;
     opacity: 1;
+    background-color: antiquewhite;
 }
 .cardImg {
     max-width: 125px;
@@ -107,7 +137,7 @@ nav a {
 .cardText {
     margin: 0;
     font-size: 0.8em;
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .rotateRight {

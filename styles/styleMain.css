@@ -22,7 +22,7 @@ html, body
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
-    background-color: var(--primary);
+    background-color: #80002033;
 }
 
 #wrapper {
@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--primary);
 }
 
 nav {
@@ -54,6 +55,14 @@ nav a {
     margin: 5px 0 0 5px;
 }
 
+#navCoName {
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+    color: var(--primary);
+}
+
 #navLinks {
     display: flex;
     align-items: center;
@@ -61,12 +70,10 @@ nav a {
 }
 
 #banner {
-    height: fit-content;
     position: relative;
 }
 
 #banner img {
-    min-width: 100%;
     max-width: 100%;
 }
 
@@ -89,12 +96,12 @@ nav a {
     user-select: none;
 }
   
-  .next {
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-  .prev:hover, .next:hover {
+.prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
@@ -137,6 +144,7 @@ nav a {
 .cardText {
     margin: 0;
     font-size: 0.8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--primary);
 }
 
@@ -163,9 +171,14 @@ footer {
     align-items: center;
 }
 
+.footerLinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 footer ul {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 

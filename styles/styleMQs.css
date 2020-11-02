@@ -1,0 +1,51 @@
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+
+    #banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .prev {
+        left: 0;
+    }
+
+    #navCoName {
+        display: block;
+    }
+
+    #introText p {
+        margin: 25px 10px;
+    }
+
+    #cardHolder {
+        margin: 70px 0;
+    }
+}
+
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px){
+    #wrapper {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    #navCoName {
+        display: block;
+    }
+}
+
+
+/* desktop styles */
+@media screen and (min-width: 1200px){
+    #wrapper {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    #navCoName {
+        display: block;
+    }
+}

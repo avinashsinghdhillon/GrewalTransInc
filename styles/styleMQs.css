@@ -29,7 +29,7 @@
 @media screen and (min-width: 960px){
     body {
         background: url("../assets/images/BodyBkGd_1.jpg") var(--secondary);
-        animation: animatedBackground 10s linear infinite alternate;
+        animation: animatedBackground 20s linear infinite alternate;
         font-size: 17px;
     }
 

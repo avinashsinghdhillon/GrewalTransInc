@@ -22,7 +22,7 @@ function showSlides () {
     // slideSelector[slideIndex].className += " active";
     slides[slideIndex].style.display = "block";
     slideIndex++;
-    clearTO = setTimeout(showSlides, 2000); // Change image every 2 seconds
+    clearTO = setTimeout(showSlides, 4000); // 4 seconds to new slide
 }
 
 function nextSlide (){

@@ -22,7 +22,6 @@ html, body
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
-    background-color: #80002033;
 }
 
 #wrapper {
@@ -43,7 +42,7 @@ nav li {
     list-style-type: none;
     font-size: 0.9em;
     font-weight: 600;
-    margin: 0 3px;
+    margin: 0 5px;
 }
 
 nav a {
@@ -185,7 +184,7 @@ footer ul {
 footer li {
     font-size: .8em;
     list-style-type: none;
-    margin: 0 3px;
+    margin: 0 5px;
 }
 
 footer a {

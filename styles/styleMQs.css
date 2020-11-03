@@ -27,6 +27,12 @@
 
 /* large tablet & laptop styles */
 @media screen and (min-width: 960px){
+    body {
+        background: url("../assets/images/BodyBkGd_1.jpg") var(--secondary);
+        animation: animatedBackground 10s linear infinite alternate;
+        font-size: 17px;
+    }
+
     #wrapper {
         max-width: 80%;
         margin: auto;
@@ -35,6 +41,10 @@
     #navCoName {
         display: block;
     }
+
+    #wrapper {
+        opacity: .9;
+    }
 }
 
 
@@ -42,10 +52,23 @@
 @media screen and (min-width: 1200px){
     #wrapper {
         max-width: 70%;
-        margin: auto;
     }
 
     #navCoName {
         display: block;
     }
+
+    #cardHolder {
+        margin: 50px 0;
+    }
 }
+
+/* background animation */
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 10% 0%;
+    }
+  }

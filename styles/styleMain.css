@@ -148,13 +148,13 @@ nav a {
 }
 
 .rotateRight {
-    transform: rotate(15deg);
     margin-right: 10px;
+    animation: animatedCard1 2s linear infinite alternate;
 }
 
 .rotateLeft {
-    transform: rotate(-15deg);
     margin-left: 10px;
+    animation: animatedCard2 3s linear infinite alternate;
 }
 
 /* Footer style */
@@ -200,4 +200,39 @@ footer a {
 #fmcsaLogo, #carbLogo, #smartwayLogo {
     max-height: 25px;
     margin: 0 10px;
+}
+
+/* card animation */
+@keyframes animatedCard1 {
+    from {
+        transform: rotate(18deg);
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        -moz-transform: rotate(18deg);
+        -o-transform: rotate(18deg);
+    }
+    to {
+        transform: rotate(13deg);
+        -webkit-transform: rotate(13deg);
+        -ms-transform: rotate(13deg);
+        -moz-transform: rotate(13deg);
+        -o-transform: rotate(13deg);
+    }
+}
+
+@keyframes animatedCard2 {
+    from {
+        transform: rotate(-18deg);
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        -moz-transform: rotate(-18deg);
+        -o-transform: rotate(-18deg);
+    }
+    to {
+        transform: rotate(-13deg);
+        -webkit-transform: rotate(-13deg);
+        -ms-transform: rotate(-13deg);
+        -moz-transform: rotate(-13deg);
+        -o-transform: rotate(-13deg);
+    }
 }

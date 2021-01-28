@@ -245,3 +245,28 @@ footer a {
         -o-transform: rotate(-13deg);
     }
 }
+
+/* ----------------------------------------- */
+/*              Contact Page                 */
+/* ----------------------------------------- */
+
+#contactInfoContainer {
+    margin: 20px;
+    color: var(--light);
+}
+
+.contactHeader {
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 5px 0 0 0;
+}
+
+.contactInfo {
+    margin: 0 0 0 10px;
+}
+
+#googleMapContainer{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}

@@ -270,3 +270,42 @@ footer a {
     justify-content: center;
     margin: 15px 0;
 }
+
+/* ----------------------------------------- */
+/*              Careers Page                 */
+/* ----------------------------------------- */
+
+#careersSlidesContainer {
+    contain: content;
+    display: flex;
+    justify-content: center;
+}
+
+.careerHeader {
+    color: var(--light);
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.careerInfo {
+    color: var(--light);
+    margin: 25px;
+}
+
+.downloadBut {
+    margin: 25px;
+    width: 175px;
+    height: 40px;
+    background-color: var(--light);
+    color: var(--primary);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 5px 10px 5px black;
+    border-radius: 20px;   
+}
+
+.downloadBut:hover {
+    background-color: var(--primary);
+    color: var(--light);
+    border: var(--light) solid 2px;
+}

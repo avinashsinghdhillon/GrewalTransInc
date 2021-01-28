@@ -36,14 +36,11 @@
     #wrapper {
         max-width: 80%;
         margin: auto;
+        opacity: .9;
     }
 
     #navCoName {
         display: block;
-    }
-
-    #wrapper {
-        opacity: .9;
     }
 }
 
@@ -51,7 +48,7 @@
 /* desktop styles */
 @media screen and (min-width: 1200px){
     #wrapper {
-        max-width: 70%;
+        max-width: 80%;
     }
 
     #navCoName {

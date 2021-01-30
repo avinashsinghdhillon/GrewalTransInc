@@ -267,6 +267,9 @@ footer a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2px;
+    border: solid var(--light) 2px;
+    box-shadow: 0 5px 10px 5px var(--light);
 }
 
 .contactHeader {
@@ -305,10 +308,16 @@ footer a {
 
 .careerHeader {
     color: var(--light);
+    font-size: 1.3em;
     font-weight: 600;
-    text-decoration: underline;
     margin: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: solid var(--light) 2px;
+    box-shadow: 0 5px 10px 5px var(--light);
 }
 
 .careerInfo {
@@ -354,4 +363,31 @@ footer a {
     background-color: var(--primary);
     color: var(--light);
     border: var(--light) solid 2px;
+}
+
+/* ----------------------------------------- */
+/*              Quote Page                   */
+/* ----------------------------------------- */
+
+#quoteContentContainer {
+    font-size: 0.8em;
+}
+
+.quoteHeader {
+    color: var(--light);
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2px;
+    border: solid var(--light) 2px;
+    box-shadow: 0 5px 10px 5px var(--light);
+}
+
+.quoteInfo {
+    color: var(--light);
+    margin: 10px 25px;
 }

@@ -247,6 +247,16 @@ footer a {
 }
 
 /* ----------------------------------------- */
+/*              Icon Styling                 */
+/* ----------------------------------------- */
+.material-icons {
+    font-size: 24px;
+}
+
+
+
+
+/* ----------------------------------------- */
 /*              Contact Page                 */
 /* ----------------------------------------- */
 
@@ -286,22 +296,26 @@ footer a {
     font-weight: 600;
     text-decoration: underline;
     margin: 20px;
+    text-align: center;
 }
 
 .careerInfo {
     color: var(--light);
-    margin: 25px;
+    margin: 10px 25px;
 }
 
 .downloadBut {
     margin: 25px;
-    width: 175px;
+    width: 200px;
     height: 40px;
     background-color: var(--light);
     color: var(--primary);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow: 0 5px 10px 5px black;
-    border-radius: 20px;   
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .downloadBut:hover {

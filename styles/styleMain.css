@@ -263,16 +263,24 @@ footer a {
 #contactInfoContainer {
     margin: 20px;
     color: var(--light);
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contactHeader {
+    font-size: 1.3em;
     font-weight: 600;
-    text-decoration: underline;
-    margin: 5px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
 .contactInfo {
     margin: 0 0 0 10px;
+}
+
+.contactHeader, .contactInfo {
+    display: flex;
 }
 
 #googleMapContainer{
@@ -289,6 +297,10 @@ footer a {
     contain: content;
     display: flex;
     justify-content: center;
+}
+
+#careersInfoContainer {
+    font-size: 0.8em;
 }
 
 .careerHeader {
@@ -322,6 +334,7 @@ footer a {
     justify-content: center;
     align-content: center;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .downloadBut {

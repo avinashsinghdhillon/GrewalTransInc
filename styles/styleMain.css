@@ -304,8 +304,27 @@ footer a {
     margin: 10px 25px;
 }
 
+.listItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.listItem:hover .listIcon {
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+    box-shadow: inset 0 0 0 2px var(--light);
+}
+
+#downloadButContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+}
+
 .downloadBut {
-    margin: 25px;
     width: 200px;
     height: 40px;
     background-color: var(--light);

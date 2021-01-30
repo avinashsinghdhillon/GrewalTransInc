@@ -246,6 +246,12 @@ footer a {
     }
 }
 
+.pageHeaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ----------------------------------------- */
 /*              Icon Styling                 */
 /* ----------------------------------------- */
@@ -261,6 +267,12 @@ footer a {
 /* ----------------------------------------- */
 
 #contactInfoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#contactSubContainer {
+    width: 600px;
     margin: 20px;
     color: var(--light);
     font-size: 0.8em;
@@ -307,6 +319,7 @@ footer a {
 }
 
 .careerHeader {
+    width: 400px;
     color: var(--light);
     font-size: 1.3em;
     font-weight: 600;
@@ -374,6 +387,7 @@ footer a {
 }
 
 .quoteHeader {
+    width: 400px;
     color: var(--light);
     font-size: 1.3em;
     font-weight: 600;
